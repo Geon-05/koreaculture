@@ -83,7 +83,7 @@ const app = Vue.createApp({
     ,
     computed: {
         formattedSubject() {
-            return `Game Title : ${this.subjectResponse || "🔍"}`;
+            return `더 자세하게 찾아드릴게요😁 ${this.subjectResponse || "🔍"}`;
         }
     }
 }).mount("#app");
